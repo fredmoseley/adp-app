@@ -1,0 +1,54 @@
+.bold {
+  font-weight: bold;
+}
+
+.player-form-display .x-label-text-el {
+  font: 400 24px Roboto, sans-serif;
+}
+
+.like .x-cells-el {
+  color: green !important;
+}
+
+.dislike {
+  color: red !important;
+}
+
+.like-background,
+.like-background .x-chipview-body-el {
+  background-color: rgba(0, 128, 0, 0.3);
+}
+
+.dislike-background,
+.dislike-background .x-chipview-body-el {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+table,
+td {
+  border: 1px solid #333;
+  // padding: 4px;
+}
+
+thead,
+tfoot {
+  //background-color: #5a585a;
+  background-color: var(--base-color);
+  color: #fff;
+  padding-right: 2.5rem;
+}
+
+th,
+td {
+  padding: 0.25rem 1rem;
+}
+
+.drafted {
+  opacity: 0.5;
+}
+
+/*https://sencha.jira.com/browse/EXTJS-29331*/
+.disable-close-icon .x-close-el.x-font-icon {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
