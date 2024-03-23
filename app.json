@@ -466,5 +466,6 @@
    * Uniquely generated id for this application, used as prefix for localStorage keys.
    * Normally you should never change this value.
    */
-  "id": "ee399530-3c22-4792-bd5a-90b1cce04c23"
+  "id": "ee399530-3c22-4792-bd5a-90b1cce04c23",
+  "bypass_lp": true
 }
